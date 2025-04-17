@@ -1,0 +1,11 @@
+name: Build and Publish Docker Image for Exercise 01
+on:
+    push:
+        branches:
+            - main
+jobs:
+    ex01:
+        uses: ./.github/workflows/build.yml
+        with:
+            path: "Exercise 01 Introduction"
+            name: ei2-ex01
