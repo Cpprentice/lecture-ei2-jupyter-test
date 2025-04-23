@@ -1,1 +1,1 @@
-pandapower==2.14.11
+pandapower[all]==2.14.11
