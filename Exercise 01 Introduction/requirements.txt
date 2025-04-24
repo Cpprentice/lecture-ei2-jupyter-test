@@ -1,2 +1,3 @@
-pandapower[all]==2.14.11
+pandapower==2.14.11
 igraph==0.11.8
+matplotlib==3.10.1
