@@ -1,1 +1,2 @@
 pandapower[all]==2.14.11
+igraph==0.11.8
