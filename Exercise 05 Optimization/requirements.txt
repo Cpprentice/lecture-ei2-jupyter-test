@@ -91,7 +91,7 @@ locket==1.0.0
 lxml==5.3.0
 MarkupSafe==3.0.2
 mat73==0.63
-matlabengine==24.1.2
+# matlabengine==24.1.2
 matplotlib==3.8.4
 matplotlib-inline==0.1.7
 matpower==8.0.0.2.1.8
