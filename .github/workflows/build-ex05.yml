@@ -1,0 +1,15 @@
+name: Build and Publish Docker Image for Exercise 05
+on:
+    push:
+        branches:
+            - main
+        paths:
+            - ".github/workflows/build.yml"
+            - ".github/workflows/build-ex05.yml"
+            - "Exercise 05 Optimization/**"
+jobs:
+    ex03:
+        uses: ./.github/workflows/build.yml
+        with:
+            path: "Exercise 05 Optimization"
+            name: ei2-ex05
