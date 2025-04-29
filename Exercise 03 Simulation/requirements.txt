@@ -19,17 +19,14 @@ numpydoc
 sphinx
 sphinx_rtd_theme
 sphinx-pyproject
-matplotlib
 igraph
 geopandas
 pytest>=7.0
 pytest-xdist
 nbmake
 ortools
-numba==0.60.0
 lightsim2grid==0.10.1
 xlsxwriter
-openpyxl
 cryptography
 matpowercaseframes
 power-grid-model-io
